@@ -45,7 +45,11 @@ class GCDViewController: UIViewController {
             self.resultLabel.text = String(result)
         }
         
-        // 上記やっていることは下記と同じだが「実行中...」が非同期でないと表示されないので上記の様になっている。
+        // 上記やっていることは下記と結果が同じだが「実行中...」が非同期でないと表示されないので上記の様になっている。
+//        let start = NSDate()
+//        var result:Int = 0
+//        self.answerLabel.text = "計算中..."
+//        self.resultLabel.text = "計算結果"
 //        result += fib(40)
 //        result += fib(40)
 //        let elapsed = NSDate().timeIntervalSince(start as Date)
